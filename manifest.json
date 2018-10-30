@@ -1,0 +1,19 @@
+{
+  "name": "Stride favicon",
+  "version": "1.0.0",
+  "description": "Replace annoying red icon with default icon. Direct messages favicon will not be changed.",
+  "permissions": [
+    "tabs",
+    "https://app.stride.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "https://app.stride.com/*" ],
+      "js": [
+        "js/script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
