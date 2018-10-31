@@ -6,7 +6,6 @@ const defaultIcon = `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAA
 
 const icon = document.querySelector('link[rel="icon"]');
 
-// Create an observer instance linked to the callback function
 new MutationObserver((mutationsList, observer) => {
     if (icon.href === unreadIndirectMessagesIcon) {
       console.log('[Stride favicon extension]:', mutationsList, 'replace unread indirect messages icon with default icon');
