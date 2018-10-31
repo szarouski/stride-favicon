@@ -1,0 +1,4 @@
+- git clone extension locally
+- go to chrome://extensions/ & enable developer mode
+- use `loan unpacked extension` & choose extension folder
+- enjoy :)
